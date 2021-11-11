@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html class="uk-overflow-hidden" style="overflow-y: scroll;">
+    <head>
+        <link rel="icon" href="/images\logos\logo_contrast.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>hcinteract website</title>
+        <link rel="stylesheet" href="../css/uikit.isyf-theme.css" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <style>
+            @media screen and (min-width: 0px) {   
+                #main-img{
+                    background-image: url(/pics/fun2.jpg);
+                    background-size: fill;
+                } 
+            }
+            @media screen and (min-width: 640px) {   
+                #main-img{
+                    background-image: url(/pics/fun2.jpg);
+                    background-size: fill;
+                } 
+            }
+            @media screen and (min-width: 960px) {   
+                #main-img{
+                    background-image: url(/pics/fun2.jpg);
+                    background-size: fill;
+                } 
+            }
+        </style>
+    </head>
+    <body class='disable-select uk-overflow-hidden' style="width: 100%;">
+        <div id='top_sec' uk-grid>
+            <div class='uk-width-auto'>
+                <img style='padding-top: 5px;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img="">
+            </div>  
+            <div class="uk-width-expand uk-position-relative uk-background-cover" style=' background-color: #404040;' uk-parallax='bgy: 70'  uk-img>
+                <div class="uk-visible@m uk-margin-medium-top uk-margin-small-left" style="background-color: #404040; height: 15vh; margin-left: -40px"></div>
+                
+                <!--
+                <div class='uk-position-bottom uk-grid uk-padding uk-padding-remove-bottom uk-padding-remove-right uk-overflow-hidden' style="height: 94%;" uk-grid>
+                    <div class='uk-width-1-2 uk-visible@m' style="min-width: fit-content;">
+                        <div class="uk-position-top-1 uk-margin-medium-bottom uk-margin-medium-left uk-padding uk-padding-remove-bottom">
+                        </div>
+                    </div>
+                    
+                    <div class='uk-position-relative uk-visible@s uk-hidden@m uk-margin-left' style="width: 100%;">
+                        <div class="uk-position-top-3 uk-margin-large-bottom uk-margin-left" style="min-width: 100%;">
+                            </div>
+                    </div>
+                    
+                    <div class='uk-position-relative uk-hidden@s uk-margin-left' style="width: 100%;"> 
+                        <div class='uk-position-top-1 uk-margin-bottom' style="min-width: 100%;">
+                        </div>
+                    </div>
+
+                </div>
+            -->
+
+                <div id='top_nav_container' class='uk-position-top uk-visible@m'>
+                    <nav class='uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' uk-navbar>
+                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left">
+                            <ul class="uk-navbar-nav">
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../index.html">Home</a></li>
+                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="Programmes.html"  onmouseover='showProfiles("programmesBar")'>Programmes</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../Our Speakers/ourspeakers.html">Our Speakers</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../about">About Us</a></li>
+                                <li class='uk-text-bold '><a style='text-transform: capitalize;' href="../join/index.html">Join Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right uk-padding-small uk-padding-remove-right">
+                            <ul id='icon_list' class="uk-iconnav">
+                                <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px;" uk-icon="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/isyf.2021/" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px;" uk-icon="instagram"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px; padding-bottom: 11px;" uk-icon="youtube"></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <nav id='programmesBar' onmouseleave="hideProfiles('programmesBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left  uk-visible@m' style="display: none;" uk-navbar>
+                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
+                            <ul class="uk-nav uk-inline">
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="Programmes_poverty.html">Poverty</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px; background-color: #A261B5;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_environment.html">Environment</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_special_needs.html">Special Needs</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                                <li class='uk-margin-large-right uk-inline'>
+                                    <div>
+                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_migrant_workers.html">Migrant Workers</a>
+                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
+                <span  href="#offcanvas-slide" class="uk-button uk-hidden@m uk-padding-small" style="color: white; height: fit-content;" uk-toggle uk-icon="icon: menu; ratio: 1.5;"></span>
+                
+                <div id="offcanvas-slide" uk-offcanvas>
+                    <div class="uk-offcanvas-bar">
+                        <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom uk-active'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="../index.html">Home</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom uk-parent'>
+                                <a style='text-transform: capitalize; color: white;' href="Programmes.html">Programmes</a>
+                                <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                <ul class="uk-nav-sub uk-margin-small-top">
+                                    <li>
+                                        <div class='uk-inline-block'>
+                                            <a href="Programmes_poverty.html">Poverty</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px; background-color: #A261B5;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href='../Programmes/Programmes_environment.html'>Environment</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href='../Programmes/Programmes_special_needs.html'>Special Needs</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                    <li class='uk-margin-small-top'>
+                                        <div class='uk-inline-block'>
+                                            <a href='../Programmes/Programmes_migrant_workers.html'>Migrant Workers</a>
+                                            <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="../Our Speakers/ourspeakers.html">Our Speakers</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="../about">About Us</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+                    
+                            <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
+                                <div class='uk-inline-block'>
+                                    <a class='uk-inline' style='text-transform: capitalize;' href="../join/index.html">Join Us</a>
+                                    <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                </div>
+                            </li>
+                
+                            <ul class="uk-iconnav uk-position-bottom uk-margin-bottom uk-margin-small-left">
+                                <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/isyf.2021/" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="instagram"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" class="uk-margin-small-right" style="padding: 5px; border-radius: 15px; background-color:#BFBFBF; color: #404040;" uk-icon="youtube"></a></li>
+                            </ul>
+                
+                        </ul>
+                    </div>
+                </div>
+                
+                </div>
+                </div>
+       
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_1' class='uk-section uk-margin-large-bottom uk-visible@m'>
+                <div class="uk-padding-left" uk-scrollspy='cls: uk-animation-slide-left;'>
+                    <h1 class='uk-text-bold uk-margin-remove-top'>Poverty</h1>
+                </div>
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+                
+
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_1_text_column' class='uk-width-auto' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>General Overview</h3>
+                            <div class="uk-column-1-2 uk-column-divider">
+                                <p class='uk-text-break uk-text-justify'>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Consequuntur optio rerum magni temporibus nostrum molestiae odit tempore alias porro maxime commodi, nesciunt. Magni, optio autem ullam, enim sint commodi voluptatum.</p>
+                                <p class='uk-text-break uk-text-justify'>Since its inaugural year in 2009, ISYF has provided a platform for budding science talents from
+                                    all over the world to engage in scientific discourse and cultural exchange. Some of the highlights
+                                    of this year’s forum include the Team Project Challenge, Cultural Sharing, Online Poster
+                                    Exhibition, a brand new virtual science workshop, and the ISYF<em style="color: #676767;">digital</em> Keynote with Sir
+                                    Konstantin Novoselov (Nobel Prize in Physics 2010).</p>
+                                <p class='uk-text-break uk-text-justify'>ISYF<em style="color: #676767;">digital</em> 2021 hopes to bring together and enthuse young scientific minds to connect through
+                                    their shared passion, widen their exposure to careers in science, and deepen their
+                                    understanding of science's role in society.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_1_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_1_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline uk-width-1-1'>
+                        </div>
+                    </div>
+
+                    <div id='body_content_1_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <h1 class='uk-text-bold uk-margin-small-bottom'>Poverty</h1>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>General Overview</h3>
+                            <div class="uk-column-1-2@s uk-column-divider">
+                                <p class='uk-text-break uk-text-justify'>The International Science Youth Forum (ISYF) is a prestigious science enrichment programme
+                                    for top research students from all over the globe, hosted by Hwa Chong Institution. This year,
+                                    the ISYF Student Organising Committee comprises all the members of the school's Students’
+                                    Science Research Club (SSRC). The delegates of ISYF will gain the opportunity to participate in
+                                    a multitude of exciting and meaningful activities, which include intellectual discourse with
+                                    eminent scientists and Nobel Laureates and networking with peers through collaborative
+                                    projects and cultural sharings.</p>
+                                <p class='uk-text-break uk-text-justify'>Since its inaugural year in 2009, ISYF has provided a platform for budding science talents from
+                                    all over the world to engage in scientific discourse and cultural exchange. Some of the highlights
+                                    of this year’s forum include the Team Project Challenge, Cultural Sharing, Online Poster
+                                    Exhibition, a brand new virtual science workshop, and the ISYF<em style="color: #676767;">digital</em> Keynote with Sir
+                                    Konstantin Novoselov (Nobel Prize in Physics 2010).</p>
+                                <p class='uk-text-break uk-text-justify'>ISYF<em style="color: #676767;">digital</em> 2021 hopes to bring together and enthuse young scientific minds to connect through
+                                    their shared passion, widen their exposure to careers in science, and deepen their
+                                    understanding of science's role in society.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+
+
+
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+            <div class="uk-padding-left" uk-scrollspy='cls: uk-animation-slide-left;'>
+                <h2 class='uk-text-bold uk-margin-remove-top'>Key Issues</h2>
+            </div>
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>1. Food Insecurity</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <h2 class='uk-text-bold uk-margin-remove-top'>Key Issues</h2>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>1. Food Insecurity</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+        
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>2. Plastic Waste</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>2. Plastic Waste</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+        
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>3. Threat to Biodiversity</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>3. Threat to Biodiversity</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+            <div class="uk-padding-left" uk-scrollspy='cls: uk-animation-slide-left;'>
+                <h2 class='uk-text-bold uk-margin-remove-top'>Key Stakeholders</h2>
+            </div>
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>1. Government</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <h2 class='uk-text-bold uk-margin-remove-top'>Key Stakeholders</h2>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>1. Government</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+        
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>2. General Public</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>2. General Public</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+        
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>3. Youth</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>3. Youth</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+        <div id='body_content_4' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
+        
+            <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
+                <div id='icon_left' class='uk-width-auto'>
+                    <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                </div> 
+            
+                <div id='body_content_4_image_column' class='uk-padding-remove-left' uk-parallax='y: 120px;'>
+                
+                </div>
+                
+                <div class="uk-grid uk-width-expand">
+                    <div id='body_content_4_image_column' class='uk-width-expand@m' uk-parallax='y: 120px;'>
+                        <div class='uk-inline' uk-scrollspy='cls: uk-animation-slide-right;'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>4. NGOs</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the 1<sup>st</sup> 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id='icon_right' class='uk-width-auto uk-padding-remove-left'>
+                    <div class="uk-inline">
+                        <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+            <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
+                
+                <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
+                    <div id='body_content_4_image_column' class='uk-width-1-3@m uk-padding-remove-left'>
+                        <div class='uk-inline'>
+                            <h3 class='uk-text-bold uk-margin-remove-top'>4. NGOs</h3>
+                        </div>
+                    </div>
+
+                    <div id='body_content_4_text_column' class='uk-width-2-3@m uk-margin-left uk-margin-remove-left uk-padding-remove-left' uk-scrollspy='cls: uk-animation-slide-right;'>
+                        <div class='uk-margin-top'>
+                            <div>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">A warm welcome to all participants of the International Science Youth Forum (ISYF) 2021.</p>
+                                <p class='uk-text-break uk-text-justify'>Now in its 13th year, we remain committed to the ISYF mission of providing a platform for aspiring
+                                    scientists to be invigorated by the learning from world renowned scientists and inspired to
+                                    consider a potentially rewarding career in Science. This year’s theme “Post-Pandemic Science:
+                                    Navigating Uncharted Waters” reminds us how science and technology have indeed offered
+                                    much hope and optimism thus far in dealing with the chaos and uncertainty that have upended
+                                    our lives indelibly the past year. At the same time, it would be remiss to exclude the aspirational
+                                    ideals that have shaped scientific practice both past and present.</p>
+                                <p class='uk-text-break uk-text-justify'>The world is heartened to witness scientists leading the charge and working at breakneck speed
+                                    to thwart the hydra-headed COVID-19. This has resulted in a number of vaccines and test kits
+                                    being developed within a relatively short period of time, made only possible by breakthroughs in
+                                    science and technology and the collective grit and tenacity of humankind.</p>
+                                <p class='uk-text-break uk-text-justify'>An encouraging development is the increasing respect and trust accorded to scientists as the
+                                    world recognizes the imperative need to invest more in acquiring scientific knowledge for
+                                    immediate solutions and future preparedness. Biochemist Jennifer Doudna, who won the 2020
+                                    Nobel Prize for Chemistry, attests that rapid and open access to research has improved how
+                                    scientific discoveries have been shared virtually and extensively; and more significantly, entailed
+                                    the collaboration of scientists and non-scientists across disciplines with a shared urgency to
+                                    mitigate global problems. Against such a backdrop, I hope likewise, that you will be excited by
+                                    the sharing of novel ideas and rich conversations with like-minded enthusiastic peers and
+                                    illustrious scientists, as you ponder over the role of science in educating the public and discuss
+                                    solutions to pressing enigmatic concerns.</p>
+                                <p class='uk-text-break uk-text-justify'>Wishing you an illuminating and engaging time at ISYF<em style="color: #676767;">digital</em> 2021!</p>
+                                <p class='uk-text-break uk-text-bold' style="color: #404040;">
+                                    Mr Pang Choon How <br>
+                                    Principal, Hwa Chong Institution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+
+
+
+
+        
+
+        <div class='uk-margin-medium-top uk-inline' style="background-color: #404040; width: 100%;">
+            <div class="uk-align-center uk-margin-remove-bottom uk-margin-top uk-padding uk-margin-bottom" style="width: fit-content;">
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">room</span>
+                        </div>
+                        <div class="uk-inline uk-width-expand">
+                            <p class='uk-inline uk-light uk-text-break'>661 Bukit Timah Rd, Singapore 269734</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">call</span>
+                        </div>
+                        <div class="uk-inline uk-width-expand">
+                            <p class='uk-inline uk-light'>+65 6468 3955</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-width-auto uk-margin-auto-vertical">
+                            <span class='material-icons' style="color: white;">email</span>
+                        </div>
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-expand">
+                            <p class='uk-inline uk-light'>reach_isyf@student.hci.edu.sg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-inline@m'>
+                    <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
+                        <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
+                            <span class='material-icons' style="color: white;">print</span>
+                        </div>
+                        <div class="uk-inline uk-width-auto">
+                            <p class='uk-inline uk-light'>Fax: 6769 5857</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-padding-large uk-padding-remove-top uk-padding-remove-bottom">
+                <p class="uk-padding uk-text-center uk-padding-remove-top uk-padding-remove-bottom">This is the SLS(Service Learning Summit) 2021 website. Any advice and information found on the pages are solely for the event and educational purposes only. Information related to the speakers are displayed with their consent. <br><br> <span style="font-size: 80%;"> © Service Learning Summit 2021. All rights reserved. </span> </p>
+            </div>
+        </div>
+
+        <script src='../js/main.js'></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                //The first argument are the elements to which the plugin shall be initialized
+                //The second argument has to be at least a empty object or a object with your desired options
+                OverlayScrollbars(document.querySelectorAll("body"), { });
+                // setCountDown();
+                let d1 = Date.parse("December 6, 2021");
+				let a = new Date();
+				let d2 = Date.parse(a);
+				document.getElementById("days").innerHTML = Math.floor((d1-d2)/(86400000));
+                // document.getElementById("hours").innerHTML = formatDate(d, "hh : mm");
+
+                document.getElementById("days_").innerHTML =  Math.floor((d1-d2)/(86400000));
+                // x.innerHTML = formatDate(d, "dddd h:mmtt d MMM yyyy");
+            });
+
+            var prevcontext = setSize(window.innerWidth)
+            
+            window.onresize = function(){
+                curcontext = setSize(window.innerWidth)
+                if(curcontext != prevcontext) {
+                    location.reload()
+                }
+                prevcontext = curcontext
+            }
+        </script>
+
+        <script src="../js/uikit.min.js"></script>
+        <script src="../js/uikit-icons.min.js"></script>
+    </body>
+</html> 

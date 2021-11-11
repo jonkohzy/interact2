@@ -1,0 +1,70 @@
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.sweep {
+    animation: sweep 5s infinite linear;
+}
+@keyframes sweep { to { transform: rotate(360deg); } }
+
+
+.blacknwhite {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.question:hover {
+    color: white;
+}
+
+.question:focus {
+    color: #BBBDBF;
+}
+
+.question:visited {
+    color: BBBDBF;
+}
+
+.pin-button {
+    box-shadow: 1px 1px 3px #404040; 
+    border-radius: 100%; 
+    color: white; 
+    padding: 5px; 
+    width: fit-content; 
+    height: fit-content;
+}
+
+.pin-button:hover {
+    padding: 7px; 
+    color: white; 
+}
+
+.pin-button:click {
+    padding: 7px; 
+    color: white; 
+}
+
+.const:before {
+    content: 'â–  ';
+    position: relative;
+    bottom: .1em;
+}
+
+#js-scroll-up:hover {
+    color:white ;
+    background-color: #FF006E;
+}
+
+#js-scroll-up {
+    color: white;
+    background-color: #404040;
+}
+
+#frontpic {
+    -webkit-filter: brightness(80%); /* Safari 6.0 - 9.0 */
+    filter: brightness(80%);
+}
