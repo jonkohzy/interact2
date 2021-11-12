@@ -72,3 +72,23 @@
 svg:not(:root) {
     pointer-events: none;
 }
+
+/*env*/
+.ig1 {
+    color: #5ce1e6;
+}
+
+/*migrant*/
+.ig2 {
+    color: #ffdab9;
+}
+
+/*special needs*/
+.ig3 {
+    color: #e9b2f8;
+}
+
+/*poverty*/
+.ig4 {
+    color: #38b6ff;
+}   
