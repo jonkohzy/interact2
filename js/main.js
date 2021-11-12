@@ -82,21 +82,11 @@ function show(obj) {
 
     var profile = document.getElementById(target);
     profile.style.display = null;   
-
-    var target = 'p_' + idEle[1] + '_' + idEle[2] + '_s'
-
-    var profile = document.getElementById(target);
-    profile.style.display = null;
 }
 
 function hide(obj) {
     var idEle = obj.id.split("_");
     var target = 'p_' + idEle[1] + '_' + idEle[2]
-
-    var profile = document.getElementById(target);
-    profile.style.display = 'none';
-
-    var target = 'p_' + idEle[1] + '_' + idEle[2] + '_s'
 
     var profile = document.getElementById(target);
     profile.style.display = 'none';
