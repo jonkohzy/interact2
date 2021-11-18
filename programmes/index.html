@@ -65,16 +65,17 @@
                 <div id='top_nav_container' class='uk-position-top uk-visible@m'>
                     <nav class='uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' uk-navbar>
                         <div class="uk-navbar-left uk-padding-small uk-padding-remove-left">
-                            <ul class="uk-navbar-nav"   onmouseover='showProfiles("profilesBar")' onmouseleave='hideProfiles("profilesBar")'>
+                            <ul class="uk-navbar-nav"  onmouseover='showProfiles("profilesBar")' onmouseleave='hideProfiles("profilesBar")'>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../home">Home</a></li>
-                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="../programmes">Programmes</a></li>
+                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="../programmes" onmouseover='showProfiles("programmesBar")'>Programmes</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../speakers">Our Speakers</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../about">About Us</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../join">Join Us</a></li>
                             </ul>
                         </div>
+                    
                     </nav>
-
+                    </div>
                     <span  href="#offcanvas-slide" class="uk-button uk-hidden@m uk-padding-small" style="color: white; height: fit-content;" uk-toggle uk-icon="icon: menu; ratio: 1.5;"></span>
 
                     <div id="offcanvas-slide" uk-offcanvas>
@@ -83,14 +84,38 @@
                                 <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
                                     <div class='uk-inline-block'>
                                         <a class='uk-inline' style='text-transform: capitalize;' href="../home">Home</a>
-                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px; background-color: #00D490;"></div>
-                                    </div>
-                                </li>
-                                <li class='uk-text-bold uk-active uk-margin-large-right uk-margin-bottom'>
-                                    <div class='uk-inline-block'>
-                                        <a class='uk-inline' style='text-transform: capitalize;' href="../programmes">Programmes</a>
                                         <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
                                     </div>
+                                </li>
+                                <li class="uk-text-bold uk-active uk-margin-large-right uk-margin-bottom uk-parent">
+                                    <a class="uk-inline" style="text-transform: capitalize;" href="../programmes/index.html">Programmes</a>
+                
+                                    <ul class="uk-nav-sub uk-margin-small-top" hidden="">
+                                        <li>
+                                            <div class="uk-inline-block">
+                                                <a href="../programmes/Programmes_poverty.html">Poverty</a>
+                                                <div class="uk-inline uk-margin-small-left" style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                            </div>
+                                        </li>
+                                        <li class="uk-margin-small-top">
+                                            <div class="uk-inline-block">
+                                                <a href="../programmes/Programmes_environment.html">Environment</a>
+                                                <div class="uk-inline uk-margin-small-left" style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                            </div>
+                                        </li>
+                                        <li class="uk-margin-small-top">
+                                            <div class="uk-inline-block">
+                                                <a href="../programmes/Programmes_special_needs.html">Special Needs</a>
+                                                <div class="uk-inline uk-margin-small-left" style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                            </div>
+                                        </li>
+                                        <li class="uk-margin-small-top">
+                                            <div class="uk-inline-block">
+                                                <a href="../programmes/Programmes_migrant_workers.html">Migrant Workers</a>
+                                                <div class="uk-inline uk-margin-small-left" style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </li>
                                  <li class='uk-text-bold uk-margin-large-right uk-margin-bottom'>
                                     <div class='uk-inline-block'>

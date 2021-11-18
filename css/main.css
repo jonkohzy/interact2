@@ -97,3 +97,26 @@ svg:not(:root) {
 .ig4 {
     color: #38b6ff;
 }   
+
+
+  
+  .uk-position-bottom-3{
+    bottom:30%;
+    left:10%;
+  }
+  
+  .uk-position-top-2{
+    top: 32%;
+    left: 7%; 
+  }
+  
+  .uk-position-bottom-1{
+    bottom:0;
+    right: 5%;
+  }
+  
+  .uk-position-top-3{
+    left:0;
+    top: 30%;
+  }
+  
