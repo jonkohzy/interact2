@@ -119,4 +119,12 @@ svg:not(:root) {
     left:0;
     top: 30%;
   }
+
+  .uk-overlay-1 {
+    padding: 10px 10px;
+  }
+
+  .uk-overlay-default-1 {
+    background: rgba(255, 255, 255, 0.5);
+  }
   
