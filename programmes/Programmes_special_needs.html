@@ -61,54 +61,15 @@
                 <div id='top_nav_container' class='uk-position-top uk-visible@m'>
                     <nav class='uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' uk-navbar>
                         <div class="uk-navbar-left uk-padding-small uk-padding-remove-left">
-                            <ul class="uk-navbar-nav">
+                            <ul class="uk-navbar-nav" onmouseover='showProfiles("profilesBar")' onmouseleave='hideProfiles("profilesBar")'>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../index.html">Home</a></li>
-                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="Programmes.html"  onmouseover='showProfiles("programmesBar")'>Programmes</a></li>
+                                <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="Programmes.html">Programmes</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../Our Speakers/ourspeakers.html">Our Speakers</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="../about">About Us</a></li>
                                 <li class='uk-text-bold '><a style='text-transform: capitalize;' href="../join/index.html">Join Us</a></li>
                             </ul>
                         </div>
-                        <div class="uk-navbar-right uk-padding-small uk-padding-remove-right">
-                            <ul id='icon_list' class="uk-iconnav">
-                                <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px;" uk-icon="facebook"></a></li>
-                                <li><a href="https://www.instagram.com/isyf.2021/" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px;" uk-icon="instagram"></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCs9CbJcxC2x8OPYiNx5QDTg" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px; padding-bottom: 11px;" uk-icon="youtube"></a></li>
-                            </ul>
-                        </div>
                     </nav>
-
-                    <nav id='programmesBar' onmouseleave="hideProfiles('programmesBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left  uk-visible@m' style="display: none;" uk-navbar>
-                        <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
-                            <ul class="uk-nav uk-inline">
-                                <li class='uk-margin-large-right uk-inline'>
-                                    <div>
-                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_poverty.html">Poverty</a>
-                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
-                                    </div>
-                                </li>
-                                <li class='uk-margin-large-right uk-inline'>
-                                    <div>
-                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_environment.html">Environment</a>
-                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
-                                    </div>
-                                </li>
-                                <li class='uk-margin-large-right uk-inline'>
-                                    <div>
-                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="Programmes_special_needs.html">Special Needs</a>
-                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px; background-color: #00D490;"></div>
-                                    </div>
-                                </li>
-                                <li class='uk-margin-large-right uk-inline'>
-                                    <div>
-                                        <a class='uk-inline' style='text-transform: capitalize; color: white;' href="../Programmes/Programmes_migrant_workers.html">Migrant Workers</a>
-                                        <div class='uk-inline uk-margin-small-left' style="padding: 1px; width: 10px; height: 10px; border-radius: 100px;"></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
                 
                 <span  href="#offcanvas-slide" class="uk-button uk-hidden@m uk-padding-small" style="color: white; height: fit-content;" uk-toggle uk-icon="icon: menu; ratio: 1.5;"></span>
                 
@@ -122,7 +83,7 @@
                                 </div>
                             </li>
                             <li class="uk-text-bold uk-active uk-margin-large-right uk-margin-bottom uk-parent">
-                                <a class="uk-inline" style="text-transform: capitalize;" href="../programmes/index.html">Programmes</a>
+                                <a class="uk-inline" style="text-transform: capitalize; color: white;" href="../programmes/index.html">Programmes</a>
             
                                 <ul class="uk-nav-sub uk-margin-small-top" hidden="">
                                     <li>
