@@ -127,4 +127,8 @@ svg:not(:root) {
   .uk-overlay-default-1 {
     background: rgba(255, 255, 255, 0.5);
   }
+
+  .uk-padding-left{
+    padding-left: 70px;
+  }
   
