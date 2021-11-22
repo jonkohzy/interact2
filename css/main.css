@@ -110,7 +110,7 @@ svg:not(:root) {
   }
   
   .uk-position-top-2{
-    top: 32%;
+    top: 40%;
     left: 7%; 
   }
   
@@ -135,4 +135,21 @@ svg:not(:root) {
   .uk-padding-left{
     padding-left: 70px;
   }
+
+  .uk-button-extra-large {
+    padding: 0 40px;
+    line-height: 70px;
+    font-size: 1.0rem;
+    width: 400px;
+  }
   
+  .uk-button-medium {
+    padding: 0 20px;
+    line-height: 52px;
+    font-size: 0.875rem;
+    width: 200px;
+  }
+
+  #instagramlink:visited{
+    color: #1E87F0;
+  }
