@@ -153,3 +153,7 @@ svg:not(:root) {
   #instagramlink:visited{
     color: #1E87F0;
   }
+
+  .uk-padding-right{
+    padding-right: 75px;
+  }
