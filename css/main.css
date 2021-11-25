@@ -154,6 +154,19 @@ svg:not(:root) {
     color: #1E87F0;
   }
 
+  #povertylink1:visited{
+    color: #1E87F0;
+  }
+
+  #povertylink2:visited{
+    color: #1E87F0;
+  }
+
   .uk-padding-right{
     padding-right: 75px;
+  }
+
+  .uk-table-divider-1{
+    border-top: 1px solid #e5e5e5;
+    column-rule: 1px solid #404040;
   }
