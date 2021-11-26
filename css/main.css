@@ -167,6 +167,9 @@ svg:not(:root) {
   }
 
   .uk-table-divider-1{
-    border-top: 1px solid #e5e5e5;
-    column-rule: 1px solid #404040;
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    border-left: 1px solid #404040;
+    border-right: 1px solid #404040;
+    
   }
