@@ -173,3 +173,8 @@ svg:not(:root) {
     border-right: 1px solid #404040;
     
   }
+
+  .uk-navbar-nav > li.uk-active > a {
+    color: #fff;
+    border-bottom: 4px solid #38b6ff;
+  }
